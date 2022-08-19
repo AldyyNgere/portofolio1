@@ -1,0 +1,40 @@
+/* IMPORT  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron {
+  padding-top: 120px;
+}
+
+.skill-container ion-icon {
+  background-color: #eb3b5a;
+  font-size: 37px;
+  padding: 15px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #eb3b5a;
+}
